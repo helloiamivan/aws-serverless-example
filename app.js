@@ -3,7 +3,7 @@ const Extra = require('telegraf/extra')
 const Markup = require('telegraf/markup')
 const btoa = require('btoa');
 
-const bot = new Telegraf('346850651:AAEFJddDOSTwiHWksha5ZNOMUpsB-C5wSco')
+const bot = new Telegraf(BOT_API_KEY)
 
 // Mongo DB initialization
 var MongoClient = require('mongodb').MongoClient;
